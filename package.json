@@ -1,0 +1,24 @@
+{
+  "name": "databanken-1",
+  "version": "0.0.0",
+  "description": "Awesome description",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Isabelle Vandooren",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivesCursus/Databanken1"
+  },
+  "bugs": {
+    "url": "https://github.com/VivesCursus/Databanken1/issues"
+  },
+  "homepage": "https://github.com/VivesCursus/Databanken1#readme"
+}
