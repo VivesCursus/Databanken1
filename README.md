@@ -1,5 +1,5 @@
 # Databanken-1
-
+--code die op github komt te staan
 Welcome to your new VuePress course. This is the README file that will display on GitHub. Please feel free to change this information. This file should reflect the content of this course.
 
 ## Development

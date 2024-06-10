@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Databanken-1',
+  title: 'Databanken 1',
   description: 'Awesome description',
   themeConfig: {
     nav: [
@@ -8,7 +8,22 @@ module.exports = {
       { text: 'License', link: '/LICENSE.md' },
     ],
     sidebar: [
-      ['/', 'Home'],
+       {
+        title: 'Hoofdstuk 1: Inleiding',   // required
+        path: '/hoofdstuk1-inleiding/',      // optional, link of the title, which should be an absolute path and must exist
+        collapsable: false, // optional, defaults to true
+        sidebarDepth: 1,    // optional, defaults to 1
+        children: [
+          '/'
+        ]
+      },
+      {
+        title: 'Hoofdstuk 2: Voorbeeld databank',
+        path: '/hoofdstuk2-voorbeelddatabank/', 
+        children: [ /* ... */ ],
+        initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
+      }
+
     ],
     repo: 'https://github.com/VivesCursus/Databanken1',
     docsDir: 'docs',
