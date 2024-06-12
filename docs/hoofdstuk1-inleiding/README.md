@@ -8,4 +8,3 @@ uitleg tabel, kolom, rij
 sleutels
 wat is sql?
 
-:tada: :100:
