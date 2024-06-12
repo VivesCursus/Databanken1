@@ -47,13 +47,12 @@ module.exports = {
           '/hoofdstuk3-installatie/1-Installatie/',
           '/hoofdstuk3-installatie/2-Configuratie/'
          ],
-        collapsable: true,
-        sidebarDepth: 2,
+        //collapsable: true,
+        //sidebarDepth: 3,
         //initialOpenGroupIndex: -1 // optional, defaults to 0, defines the index of initially opened subgroup
       }
     ],
-   // displayAllHeaders: true,
-    //sidebarDepth: 2,
+    displayAllHeaders: true,
     repo: 'https://github.com/VivesCursus/Databanken1',
     docsDir: 'docs',
     docsBranch: 'master',
