@@ -1,13 +1,17 @@
 
+
 module.exports = {
+//export default{
 
   
   title: 'Databanken 1',
   description: 'Curus voor Graduaat studenten programmeren VIVES Kortrijk',
+ 
   head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?familiy=Material+Icons' }],
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML', async: true }]
   ],
+ 
   themeConfig: {
     logo: 'https://www.vives.be/sites/default/files/uploads/huisstijl/Logo VIVES Hogeschool - Smile.png',
     nav: [
@@ -15,22 +19,7 @@ module.exports = {
       { text: 'Company', link: 'https://www.vives.be/nl/handelswetenschappen-en-bedrijfskunde/programmeren' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    /*sidebar: [
-      {
-        title: 'Hoofdstuk 1: Inleiding',   // required
-        path: '/hoofdstuk1-inleiding/',     //  optional, link of the title, which should be an absolute path and must exist
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1    // optional, defaults to 1
-      },
-      {
-        title: 'ESP32 GPIO',
-        children: [
-         
-          '/c-esp32/01-digout/README.md',
-          '/c-esp32/02-digin/README.md',
-        ]
-      },
-    ],*/
+
     sidebar: [
       {
         title: 'Hoofdstuk 1: Inleiding',   // required
